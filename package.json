@@ -1,0 +1,22 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "A bot to send pictures, videos and track movement",
+  "main": "telegraf.js",
+  "engines": {
+    "node": "12.16.1",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "/home/pi/.nvm/versions/node/v12.16.1/bin/node telegraf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ds18b20-raspi": "^0.3.4",
+    "form-data": "^3.0.0",
+    "got": "^10.6.0",
+    "rpi-gpio": "^2.1.5",
+    "telegraf": "^3.35.0"
+  }
+}
